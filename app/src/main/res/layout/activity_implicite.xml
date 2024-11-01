@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter phone number or URL:" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number or URL" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALL" />
+
+    <Button
+        android:id="@+id/dialButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIAL" />
+
+    <Button
+        android:id="@+id/openWebsiteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN WEB SITE" />
+
+    <Button
+        android:id="@+id/appManagerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APPLICATION MANAGER" />
+
+    <Button
+        android:id="@+id/wifiManagerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WIFI MANAGER" />
+
+</LinearLayout>
