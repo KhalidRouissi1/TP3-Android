@@ -13,26 +13,14 @@
         android:theme="@style/Theme.Tps"
         tools:targetApi="31">
         <activity
-            android:name=".Implicite"
+            android:name=".My_row"
+            android:exported="false" />
+        <activity
+            android:name=".MatiereActivity"
             android:exported="true" />
         <activity
-            android:name=".Second_game"
-            android:exported="false" />
-        <activity
-            android:name=".Main_Game"
+            android:name=".TP4_Listes"
             android:exported="true" />
-        <activity
-            android:name=".StartActivityForResult"
-            android:exported="false" />
-        <activity
-            android:name=".StartActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ColorPickerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".DisplayActivity"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -42,6 +30,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainButton_EX1"
+            android:exported="true" />
+        <activity
+            android:name=".ListeView_View"
+            android:exported="false" />
     </application>
 
 </manifest>
